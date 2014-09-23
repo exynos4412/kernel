@@ -1,0 +1,24 @@
+.gitignore
+vmlinux
+.config
+.version
+Module.symvers
+System.map
+asm-offsets.s
+bounds.s
+devicetable-offsets.s
+.tmp*
+*.mod.c
+*.o
+*.cmd
+*.order
+*.builtin
+*.d
+*.a
+*.tmp
+*.ko
+Module
+#ignore dir
+linux-3.14/include/generated/*
+linux-3.14/include/config/*
+linux-3.14/arch/arm/include/generated/*
