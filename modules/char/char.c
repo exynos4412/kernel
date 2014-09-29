@@ -456,7 +456,7 @@ __ATTR_NULL
 };
 #else
 DEVICE_ATTR(num, 755, chrdev_num_show, chrdev_num_store);
-DEVICE_ATTR(private, 755, chrdev_priv_show, chrdev_priv_store)
+DEVICE_ATTR(private, 755, chrdev_priv_show, chrdev_priv_store);
 static struct attribute * chrdev_attrs[] = {
 	&dev_attr_num.attr,
 	&dev_attr_private.attr,
